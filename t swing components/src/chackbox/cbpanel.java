@@ -6,6 +6,7 @@ import javax.swing.JPanel;
 public class cbpanel extends JPanel {
 
 	public JCheckBox has_insurence,do_like_shnitzel;
+	
 	public cbpanel() 
 	{
 		super();

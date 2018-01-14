@@ -2,7 +2,8 @@ package ymain;
 
 import batton.bframe;
 import chackbox.cbframe;
-import frame.yframe;
+import combo_box.cmb_frame;
+import jlist.jlframe;
 import label.lframe;
 import panel.pframe;
 import radio_btns.rframe;
@@ -36,15 +37,19 @@ public class main {
 		
 		//radio Buttons
 		rframe rf = new rframe("radio Buttons ",200,400);
-		rf.yshow();
+		//rf.yshow();
 		
 		//chackbox
 		cbframe cbf = new cbframe("chacboxes",200,200);
 		//cbf.yshow();
 		
 		//combo box
-		
+		cmb_frame cmb = new cmb_frame("combo box",200,300);
+		//cmb.yshow();
+	
 		//jlist
+		jlframe jl = new jlframe("jlist",200,200);
+		jl.yshow();
 		
 		//textarea and scrolpane
 		
